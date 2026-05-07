@@ -48,11 +48,13 @@ sequenceDiagram
         end
     end
 
+```
 
 ### 🚨 Failure Scenarios
 
 ```mermaid
 sequenceDiagram
+    participant Client
     participant GW as API Gateway
     participant Redis
     participant SVC as Microservice
@@ -76,3 +78,4 @@ sequenceDiagram
     alt Still failing
         GW-->>Client: 503 Service Unavailable
     end
+```
