@@ -1,3 +1,7 @@
+## API-Gateway Architecture:
+
+<img width="1151" height="501" alt="api-gateway" src="https://github.com/user-attachments/assets/df82e15e-4d76-4cf9-9864-5d2c6870fcad" />
+
 ## 🔄 Request Flow (Sequence Diagram)
 
 ```mermaid
