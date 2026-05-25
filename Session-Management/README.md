@@ -784,7 +784,7 @@ Key Design Principle:
 
 ![alt text](session-management-architecture.png)
 
-## 🔄 Session Validation Sequence Flow
+## Session Validation Sequence Flow
 
 ```mermaid
 sequenceDiagram
@@ -874,7 +874,7 @@ vs
 
 Regional Redis clusters provide near real-time revocation checks without introducing global validation latency.
 
-## 🔐 Session Creation & Refresh Sequence Flow
+## Session Creation & Refresh Sequence Flow
 
 ```mermaid
 sequenceDiagram
@@ -1009,7 +1009,7 @@ If a previously used refresh token is reused, the entire token family is revoked
 
 This design intentionally trades additional state management complexity for significantly stronger security guarantees.
 
-## 🌍 Session Revocation & Global Logout Sequence Flow
+## Session Revocation & Global Logout Sequence Flow
 
 ```mermaid
 sequenceDiagram
@@ -1125,7 +1125,7 @@ The system instead uses:
 
 to balance scalability, security, and availability.
 
-## 🚨 Failure Handling & Graceful Degradation Flow
+## Failure Handling & Graceful Degradation Flow
 
 ```mermaid
 sequenceDiagram
